@@ -1,3 +1,4 @@
+
 #!/bin/bash
 CREDS=$(aws sts assume-role \
 --role-arn $CROSS_ACCOUNT_ROLE \
